@@ -1,0 +1,343 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century;
+}
+
+body 
+{
+    background-color: #b5cca8;
+    overflow: visible;
+}
+
+header{
+	background-image:linear-gradient(rgba(140, 140, 140, 0.356),rgba(140, 140, 140, 0.356)), url(../images/bg.JPG);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	min-height: 100px;
+}
+ul{
+	float:right;
+	list-style-type: none;
+	margin-top: 30px;
+	margin-right:60px ;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.5s ease;
+
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+.logo img 
+{
+	float: left;
+	width: 150px;
+	height: auto;
+    margin-top: -20px;
+}
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.title{
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.title h1{
+	color: #fff;
+	font-size: 85px;
+}
+
+.title p{
+	color: #fff;
+	font-size: 25px;
+}
+
+.button{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.btn{
+	border: 1px solid #fff;
+	padding: 5px 20px;
+	color: #fff;
+	transition: 0.6s ease;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+.btn:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+.main ul li:hover .sub-menu ul 
+{
+	display: block;
+	margin:6px;
+
+}
+.main ul li:hover .sub-menu ul li
+{
+	width: 75px;
+	padding: 5px;
+	border-bottom: 1px#fff;
+	background: transparent;
+	transition: 0.4s ease;
+	text-align: left;
+	border-radius: 0;
+	
+}
+
+.main ul li:hover .sub-menu ul li:last-child 
+{
+	border-bottom: none;
+}
+
+div.areas
+{
+    padding: 5px 20px; 
+    text-decoration: none;
+    border: 1px solid transparent;
+    text-align: center; 
+    background-color: #fbf7c3; 
+    font-family: sans-serif;
+    color: #2f3c35;
+    margin: 25px;
+
+}
+
+.img#floorplan
+{
+    position: fixed;
+    left: 100px;
+    margin-left:300px ;
+    margin-right:200px;
+}
+
+.caption
+{
+    position: absolute;
+    color: black;
+    left: 600px;
+    top: 150px;
+}
+
+img#aboutme
+{
+    position: fixed;
+    width: 350px;
+    height: 450px;
+    left: 100px;
+    top: 140px;
+}
+
+.aboutme h2
+{
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 20px;
+    overflow: visible;
+
+}
+
+
+img#bed
+{
+    width: 400px;
+    height: 550px;
+    margin-right:200px;
+    margin-top: 40px;
+}
+
+.bedroom h2
+{
+    text-decoration: none;
+    float: left;
+    margin-left: 80px;
+	color: black;
+    background-color: #fbf7bb;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.5s ease;
+}
+
+img#kitchen
+{
+    width: 400px;
+    height: 550px;
+    margin-right:200px;
+    margin-top: 40px;
+}
+
+.kitchen h2
+{
+    text-decoration: none;
+    float: left;
+    margin-left: 80px;
+	color: black;
+    background-color: #fbf7bb;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.5s ease;
+}
+
+img#bathroom
+{
+    width: 400px;
+    height: 550px;
+    margin-right:200px;
+    margin-top: 40px;
+}
+
+.bathroom h2
+{
+    text-decoration: none;
+    float: left;
+    margin-left: 80px;
+	color: black;
+    background-color: #fbf7bb;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.5s ease;
+}
+
+img#dining
+{
+    width: 400px;
+    height: 550px;
+    margin-right:200px;
+    margin-top: 40px;
+}
+
+.diningroom h2
+{
+    text-decoration: none;
+    float: left;
+    margin-left: 80px;
+	color: black;
+    background-color: #fbf7bb;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.5s ease;
+}
+
+img#bed2
+{
+    width: 400px;
+    height: 550px;
+    margin-right:200px;
+    margin-top: 40px;
+}
+
+.bedroom2 h2
+{
+    text-decoration: none;
+    float: left;
+    margin-left: 80px;
+	color: black;
+    background-color: #fbf7bb;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.5s ease;
+}
+
+img#living
+{
+    width: 800px;
+    height: 500px;
+    margin-right:200px;
+    margin-top: 40px;
+}
+
+.livingroom h2
+{
+    text-decoration: none;
+    float: left;
+    margin-left: 80px;
+	color: black;
+    background-color: #fbf7bb;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.5s ease;
+}
+
+img#porch
+{
+    width: 400px;
+    height: 550px;
+    margin-right:200px;
+    margin-top: 40px;
+}
+
+.porch h2
+{
+    text-decoration: none;
+    float: left;
+    margin-left: 80px;
+	color: black;
+    background-color: #fbf7bb;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.5s ease;
+}
+
+.takeaways h2
+{
+    
+    text-align: center;
+    margin-left: 400px ;
+    margin-right: 400px;
+    margin-top: 20px;
+    overflow: visible;
+	color: black;
+    background-color: #fbf7bb;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.5s ease;
+}
+.comprog
+{
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 10px;
+    margin-top: 100px;
+    font-size: 18px;
+    color: #2f3c35;
+}
+
+#comprog-takeaway
+{
+    padding: 40px 10% 30px 10%;
+    text-align: center;
+    
+}
+.foot 
+        {
+            padding: 20px; 
+            text-align: center; 
+            background-color: #68986f; 
+            font-family: sans-serif;
+            color: #FBFFDC;
+        }
